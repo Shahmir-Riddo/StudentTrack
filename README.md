@@ -58,10 +58,14 @@ To manage results, go to the admin panel and click on the "Results" link. Then c
 To view individual student result cards, go to the admin panel and click on the "Students" link. Then click on the name of the student whose result card you want to view. This will take you to a page displaying the student's result card.
 
 To view result ranking, go to the admin panel and click on the "Results" link. Then click on the "Result Ranking" button to see the ranking of students based on their marks.
-Contributing
-![Screenshot (50)](https://user-images.githubusercontent.com/78295593/233644805-9642c3c7-fb66-4605-9435-05db4bd0080e.png)
+
 
 Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
 <h2>Screenshots </h2>
 
 ![Screenshot (49)](https://user-images.githubusercontent.com/78295593/233644826-12882438-5908-4a44-8967-7452b856e5db.png)
+![Screenshot (50)](https://user-images.githubusercontent.com/78295593/233645013-276a866e-b434-4aca-a62b-ab8d1d6fc106.png)
+![Screenshot (48)](https://user-images.githubusercontent.com/78295593/233645023-b5251816-34ba-43b0-9d05-7f0ba4612a10.png)
+![Screenshot (47)](https://user-images.githubusercontent.com/78295593/233645029-cbc3fecb-dc40-4b22-979e-85e70b7766c4.png)
+![Screenshot (46)](https://user-images.githubusercontent.com/78295593/233645033-bdc820c3-ae5b-4bc9-b4c2-f857a072b67e.png)
+![Screenshot (45)](https://user-images.githubusercontent.com/78295593/233645036-2675e867-c904-453b-8180-019be8bb000e.png)
