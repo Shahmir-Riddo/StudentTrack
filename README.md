@@ -59,12 +59,9 @@ To view individual student result cards, go to the admin panel and click on the 
 
 To view result ranking, go to the admin panel and click on the "Results" link. Then click on the "Result Ranking" button to see the ranking of students based on their marks.
 Contributing
+![Screenshot (50)](https://user-images.githubusercontent.com/78295593/233644805-9642c3c7-fb66-4605-9435-05db4bd0080e.png)
 
 Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
 <h2>Screenshots </h2>
-![Screenshot (50)](https://user-images.githubusercontent.com/78295593/233644623-d8534863-03f7-44c7-9231-a4ef0279bd57.png)
-![Screenshot (49)](https://user-images.githubusercontent.com/78295593/233644627-c9851dc1-d99e-4790-b918-7b42d38ffccd.png)
-![Screenshot (48)](https://user-images.githubusercontent.com/78295593/233644631-b8387385-9d9c-4f0e-88eb-33934ba93de4.png)
-![Screenshot (46)](https://user-images.githubusercontent.com/78295593/2![Screenshot (47)](https://user-images.githubusercontent.com/78295593/233644650-29977f41-b51a-4788-aae0-2df27753714b.png)
-33644640-7072d8f7-9dab-4b91-a067-9b86be9c1cd0.png)![Screenshot (45)](https://user-images.githubusercontent.com/78295593/233644644-dc01a409-d227-43e5-a657-0fe2354ad29b.png)
 
+![Screenshot (49)](https://user-images.githubusercontent.com/78295593/233644826-12882438-5908-4a44-8967-7452b856e5db.png)
