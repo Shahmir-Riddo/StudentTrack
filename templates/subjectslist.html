@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container">
+
+    <div class="row">
+        {% include 'sidebar.html'%}
+        <div class="col-md-10">
+          <div class="content">
+            <h1>Subjects</h1>
+    <ul class="list-group">
+      {% for s in subject %}
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          {{ s.subject }}
+          <form method="post">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-danger btn-sm">
+                <a href="/subdelete/{{ s.id }}">
+                Delete
+                </a>
+            </button>
+          </form>
+        </li>
+        {% endfor %}
+   
+    </ul>
+  </div>
+</div>
+  {% endblock body %}

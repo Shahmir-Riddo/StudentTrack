@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<!-- Bootstrap form for adding a student -->
+<div class="container mb-5">
+  <div class="row">
+ {% include 'sidebar.html' %}
+    <div class="col-md-10">
+      <div class="content">
+        <div class="row">
+            <div class="col-md-10">
+    
+   <!-- Result Ranking -->
+<div class="card">
+    <div class="card-header">
+      <h4 class="card-title">Result Ranking</h4>
+    </div>
+    <div class="card-body">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for i in rank %}
+          <tr>
+            <td></td>
+            <td>{{i}}</td>
+            <td>95</td>
+          </tr>
+          {% endfor %}
+ 
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+{% endblock body %}
