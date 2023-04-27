@@ -9,6 +9,8 @@ Features
     Manage results
     View individual student result cards
     View result ranking
+    Realtime Search Student And Teachers
+    Simple Dashboard Showing Number Of Students, Teachers.
 
 Installation
 
