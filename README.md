@@ -64,7 +64,8 @@ To view result ranking, go to the admin panel and click on the "Results" link. T
 
 Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
 <h2>Screenshots </h2>
-
+![Screenshot (60)](https://user-images.githubusercontent.com/78295593/234928644-28b85801-7a3c-4a30-bb52-d610a7b83ade.png)
+![Screenshot (59)](https://user-images.githubusercontent.com/78295593/234928668-09700848-e3bf-4cbf-afbe-7ca0d7ac1e49.png)
 ![Screenshot (49)](https://user-images.githubusercontent.com/78295593/233644826-12882438-5908-4a44-8967-7452b856e5db.png)
 ![Screenshot (50)](https://user-images.githubusercontent.com/78295593/233645013-276a866e-b434-4aca-a62b-ab8d1d6fc106.png)
 ![Screenshot (48)](https://user-images.githubusercontent.com/78295593/233645023-b5251816-34ba-43b0-9d05-7f0ba4612a10.png)
@@ -73,5 +74,4 @@ Contributions are welcome! If you find any bugs or have suggestions for new feat
 ![Screenshot (61)](https://user-images.githubusercontent.com/78295593/234928391-75ae2eeb-d815-4459-a596-23d41e82e5ee.png)
 
 
-![Screenshot (60)](https://user-images.githubusercontent.com/78295593/234928644-28b85801-7a3c-4a30-bb52-d610a7b83ade.png)
-![Screenshot (59)](https://user-images.githubusercontent.com/78295593/234928668-09700848-e3bf-4cbf-afbe-7ca0d7ac1e49.png)
+
