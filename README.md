@@ -70,7 +70,8 @@ Contributions are welcome! If you find any bugs or have suggestions for new feat
 ![Screenshot (48)](https://user-images.githubusercontent.com/78295593/233645023-b5251816-34ba-43b0-9d05-7f0ba4612a10.png)
 ![Screenshot (47)](https://user-images.githubusercontent.com/78295593/233645029-cbc3fecb-dc40-4b22-979e-85e70b7766c4.png)
 ![Screenshot (46)](https://user-images.githubusercontent.com/78295593/233645033-bdc820c3-ae5b-4b![Screenshot (59)](https://user-images.githubusercontent.com/78295593/234928399-eb58ceb9-a933-4ab5-b748-b64faa567f0f.png)
-c9-b4c2-f857a072b67e.png)
-![Screenshot (45)](https://user-images.githubusercontent.com/78295593/233645036-2675e867-c904![Screenshot (60)](https://user-images.githubusercontent.com/78295593/234928395-abb85070-d4f9-4fac-82c1-fd2e50485628.png)
--453b-8180-019be8bb000e.png)
 ![Screenshot (61)](https://user-images.githubusercontent.com/78295593/234928391-75ae2eeb-d815-4459-a596-23d41e82e5ee.png)
+
+
+![Screenshot (60)](https://user-images.githubusercontent.com/78295593/234928644-28b85801-7a3c-4a30-bb52-d610a7b83ade.png)
+![Screenshot (59)](https://user-images.githubusercontent.com/78295593/234928668-09700848-e3bf-4cbf-afbe-7ca0d7ac1e49.png)
