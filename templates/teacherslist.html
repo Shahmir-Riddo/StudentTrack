@@ -74,12 +74,7 @@
 
                       <p class="card-text">
                         <div class="table-responsive">
-                          <form class="form-inline " method="GET" action="{% url 'search' %}">{% csrf_token %}
-                            <input class="form-control mb-8" type="search" placeholder="Search By Name Or Class" aria-label="Search" name='search' id='search'>
-                       
-                            <button class="btn btn-outline-success mb-4" type="submit">Search</button>
-                           
-                          </form>
+                          
                           <table class="table table-hover">
                             <thead>
                               <tr>
@@ -90,40 +85,31 @@
                                 <td>Address</td>
                                 <td>Date Of Birth</td>
                             <tbody>
-                              {% for student in students %}
+                              {% for teacher in teachers %}
                                 <tr>
-                                  <td>{{ student.id }}</td>
-                                  <td>{{ student.name}}</td>
-                                  <td>{{ student.grade }}</td>
-                                  <td>{{ student.number }}</td>
-                                  <td>{{ student.address | truncatewords:5}}</td>
-                                  <td>{{ student.date_of_birth}}</td>
+                                  <td>{{ teacher.id }}</td>
+                                  <td>{{ teacher.name}}</td>
+                                  <td>{{ teacher.grade }}</td>
+                                  <td>{{ teacher.number }}</td>
+                                  <td>{{ teacher.address | truncatewords:5}}</td>
+                                  <td>{{ teacher.email}}</td>
                         
                                   <td>
-                                    <button type="button" class="btn btn-success me-1">
-                                      <a  href="/studentprofile/{{student.id}}">
-                                      <i class="fa-solid fa-circle-info fa-lg"  href="/studentprofile/{{student.id}}"></i>
-                                      
-                                    </button>
+                                   
               
                                     <!-- Modal - View Student -->
                                     
               
-                                    <a class="btn btn-warning me-1" href="{% url 'editstudent' student.id %}">
+                                    <a class="btn btn-warning me-1" href="">
                                       <i class="fa-solid fa-pen-to-square fa-lg"></i>
                                     </a>
               
                                     <button type="button" class="btn btn-danger" >
-                                      <a href="/delete/{{student.id}}">
+                                      <a href="{% url 'teacherdelete' teacher.id%}">
                                       <i class="fa-solid fa-trash-can fa-lg"></i>
                                       </a>
                                     </button>
-                                    <button class="btn btn-primary btn-sm"> 
-                                      <a href="{% url 'viewresult' student.id %}">
-                                        View Result 
-                                      </a>
-                                
-                                    </button>
+                                   
                                     <!-- Modal - Delete Student -->
                                  
                                         </div>

@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <div class="container">
+    <div class="row">
+     {% include 'sidebar.html' %}
+      <div class="col-md-9">
+        <h1 class="mb-4">Settings</h1>
+
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="profile">
+            <form method="POST" action="">{% csrf_token %}
+              <div class="form-group">
+                <label for="name">App Name</label>
+                <input type="text" class="form-control" id="name" name="name"placeholder="Enter name">
+              </div>
+              <div class="form-group">
+                <label for="email">App Short Name</label>
+                <input class="form-control" id="shortname" name="shortname" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="phone">Address</label>
+                <textarea type="text" class="form-control mb-3" id="address" name="address"  placeholder="Enter school address"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone number</label>
+                <input type="text" class="form-control mb-3" id="phone" name="phone"  placeholder="Enter phone number">
+              </div>
+              <button type="submit" class="btn btn-primary mb-3">Save Changes</button>
+            </form>
+          </div>
+          <div class="tab-pane fade" id="security">
+            <form>
+              <div class="form-group">
+                <label for="current-password">Current password</label>
+                <input type="password" class="form-control" id="current-password" placeholder="Enter current password">
+              </div>
+              <div class="form-group">
+                <label for="new-password">New password</label>
+                <input type="password" class="form-control" id="new-password" placeholder="Enter new password">
+              </div>
+              <div class="form-group">
+                <label for="confirm-password">Confirm password</label>
+                <input type="password" class="form-control" id="confirm-password" placeholder="Confirm new password">
+              </div>
+              <button type="submit" class="btn btn-primary">Save Changes</button>
+            </form>
+          </div>
+          <div class="tab-pane fade" id="notifications">
+            <form>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="notification1">
+                <label class="form-check-label" for="notification1">
+                  Receive email notifications
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="notification2">
+                <label class="form-check-label" for="notification2">
+                  Receive SMS notifications
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Save Changes</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

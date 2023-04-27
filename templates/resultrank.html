@@ -9,29 +9,67 @@
       <div class="content">
         <div class="row">
             <div class="col-md-10">
+              
+   <div class="form-group mb-3">
+    {% if message %}
+    <div class="alert alert-info">
+      <a href="#" class="alert-link">{{message}}</a>
+    </div>
+    {% endif %}
     
-   <!-- Result Ranking -->
+    <form method="POST" action="">{% csrf_token %}
+    <label for="search" class="mb-3">Select Grade :</label>
+    <select class="form-select" name="search" id="search">
+      <option value="">Select a grade</option>
+      <option value="1">Grade 1</option>
+      <option value="2">Grade 2</option>
+      <option value="3">Grade 3</option>
+      <option value="4">Grade 4</option>
+      <option value="5">Grade 5</option>
+      <option value="6">Grade 6</option>
+      <option value="7">Grade 7</option>
+      <option value="8">Grade 8</option>
+      <option value="9">Grade 9</option>
+      <option value="10">Grade 10</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary mb-4">Search</button>
+</form>
+</div>
+
 <div class="card">
     <div class="card-header">
-      <h4 class="card-title">Result Ranking</h4>
+      <h4 class="card-title">Student </h4>
     </div>
     <div class="card-body">
       <table class="table table-striped">
         <thead>
           <tr>
             <th>Rank</th>
-            <th>Name</th>
-            <th>Score</th>
+            <th>Student_Name</th>
+            <th>Total</th>
+            
           </tr>
         </thead>
         <tbody>
-            {% for i in rank %}
-          <tr>
-            <td></td>
-            <td>{{i}}</td>
-            <td>95</td>
+          {% if search_content %}
+           {% for s in search_content %}
+           <tr>
+            <td>{{forloop.counter}}</td>
+            <td>{{s.name}}</td>
+            <td>{{s.total_marks}}</td>
+            
+
           </tr>
+          
           {% endfor %}
+          {% else %}
+          
+         {% endif %}
+         
+          
+          
+         
  
         </tbody>
       </table>

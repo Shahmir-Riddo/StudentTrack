@@ -83,6 +83,11 @@
         <hr>
         <table>
           <tr>
+            <td>Rank </td>
+            <td>{{rank}}</td>
+          </tr>
+          <tr>
+          <tr>
             <td>Total Marks</td>
             <td>{{total_marks.total_marks}}</td>
           </tr>
@@ -104,7 +109,7 @@
           <table class="table table-striped">
            
           
-         
+  
               {% for m in result %}
               <tr>
                 <td>{{m.subject}}</td>
@@ -124,7 +129,7 @@
                 </td>
               </tr>
               {% endfor %}
-              
+         
             </tbody>
           </table>
         </div>

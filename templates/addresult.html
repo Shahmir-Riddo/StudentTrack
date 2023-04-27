@@ -9,13 +9,13 @@
   <h1>Add Result</h1>
   <form method="post" class="form">
     {% csrf_token %}
-    <label for="subject">Subject:</label>
+    <label for="subject">Student:</label>
     <div class="row-fluid">
-      <select class="selectpicker" data-show-subtext="true" data-live-search="true" data-live-search-placeholder="Test">
+      <select  data-show-subtext="true" data-live-search="true" data-live-search-placeholder="Test" name="student" id="student">
         {% for student in students %}
-        <option data-subtext="{{student.name}}">{{student.name}}</option>
+        <option data-subtext="{{student.name}}" value={{student.id}}>{{student.name}}</option>
         {% endfor %}
-        <option data-subtext="Rep California" disabled="disabled">Marvin Martinez</option>
+      
       </select>
       
     </div>

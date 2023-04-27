@@ -55,37 +55,83 @@
   </style>
 <div class="row">
   {% include 'sidebar.html'%}
-    <div class="col-md-10">
-      <div class="content">
-        <div class="row">
-            <div class="col-md-6">
+    <div class="col-md-10 mb-4">
+      <div class="container-fluid">
+
+        <div class="card mb-4">
+          <div class="card-body">
     
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="card">
-                      <div class="card-body">
-                        <h5 class="card-title">Number of Students</h5>
-                        <p class="card-text">{{students}}</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="card">
-                      <div class="card-body">
-                        <h5 class="card-title">Number of Subjects</h5>
-                        <p class="card-text">{{subjects}}</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <h4 class="card-title">{{school.name}}</h4>
+            <h6 class="card-subtitle mb-2 text-muted">{{school.address}}</h6>
+    
+            <hr>
+    
+            <div class="row">
+              <div class="col-md-6">
+              
+                <p><strong>Phone:</strong> {{school.number}}</p>
+                <p><strong>Facebook:</strong> www.facebook.com/schoolname</p>
               </div>
-  
-      
-    </div>
-    </div>
+              <div class="col-md-6">
+                <p><strong>Office Hours:</strong> Monday - Friday, 8am - 4pm</p>
+                <p><strong>Website:</strong> www.schoolname.com</p>
+              
+              </div>
+            </div>
+    
+          </div>
+        </div>
+    
+        <div class="row mb-4">
+          <div class="col-sm-6 col-md-4 mb-4">
+            <div class="card mb-2">
+              <div class="card-header">
+                Total Students
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">{{students}}</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
+              <div class="card-header">
+                Total Teachers
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">{{teachers}}</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
+              <div class="card-header">
+                Total Subjects
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">{{subjects}}</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                Latest Activities
+              </div>
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item"></li>
+                 
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    
       </div>
-    </div>
   </div>
   
   {% endblock body %}

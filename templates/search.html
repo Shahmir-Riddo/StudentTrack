@@ -58,28 +58,29 @@
     <div class="col-md-10">
       <div class="content">
  
-        <div class="input-group mb-3">
+        <div class="input-group mb-6">
   <div class="input-group-prepend">
     
    
   </div>
-
+  
+  
   
 
         
               <div class="card-body">
+               
+                  
+            
                 <p class="card-text">
                   <div class="table-responsive">
                     <div class="card-body">
-
+                        <form class="form-inline my-7 my-lg-0" method="GET" action="{% url 'search' %}">{% csrf_token %}
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search By Name Or Class" aria-label="Search" name='search' id='search'>
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                          </form>
                       <p class="card-text">
                         <div class="table-responsive">
-                          <form class="form-inline " method="GET" action="{% url 'search' %}">{% csrf_token %}
-                            <input class="form-control mb-8" type="search" placeholder="Search By Name Or Class" aria-label="Search" name='search' id='search'>
-                       
-                            <button class="btn btn-outline-success mb-4" type="submit">Search</button>
-                           
-                          </form>
                           <table class="table table-hover">
                             <thead>
                               <tr>
@@ -109,7 +110,7 @@
                                     <!-- Modal - View Student -->
                                     
               
-                                    <a class="btn btn-warning me-1" href="{% url 'editstudent' student.id %}">
+                                    <a class="btn btn-warning me-1" href="">
                                       <i class="fa-solid fa-pen-to-square fa-lg"></i>
                                     </a>
               

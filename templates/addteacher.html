@@ -10,29 +10,16 @@
         <div class="row">
             <div class="col-md-6">
     
-    <h2>Add Student</h2>
+    <h2>Add Teacher</h2>
     <form method="POST" action="">{% csrf_token %}
       <div class="form-group">
         <label for="name">Name:</label>
         <input type="text" class="form-control" id="name" name="name" placeholder="Enter name" required>
       </div>
+    
       <div class="form-group">
-        <label for="email">Grade / Year :</label>
-        
-    <select class="form-control" id="grade" name="grade">
-      <option value="1">1st</option>
-      <option value="2">2nd </option>
-      <option value="3">3rd </option>
-      <option value="4">4th</option>
-      <option value="5">5th</option>
-      <option value="6">6th</option>
-      <option value="7">7th</option>
-      <option value="8">8th</option>
-      <option value="9">9th</option>
-      <option value="10">10th</option>
-      <option value="11">11th</option>
-      <option value="12">12th</option>
-    </select>
+        <label for="phone">Department:</label>
+        <input type="text" class="form-control" id="department" name="department" placeholder="Enter Department" required>
       </div>
       <div class="form-group">
         <label for="phone">Phone:</label>
@@ -43,8 +30,8 @@
         <textarea class="form-control mb-2" id="address" name="address" rows="3" required></textarea>
       </div>
       <div class="form-group">
-        <label for="birthdate">Birthdate</label>
-        <input type="date" class="form-control" id="birthdate" name="birthdate" required>
+        <label for="birthdate">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
       </div>
       <button type="submit" class="btn btn-primary">Add</button>
     </form>
